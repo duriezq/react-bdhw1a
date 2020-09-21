@@ -1,10 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Upload } from '@progress/kendo-react-upload';
-import  {AzureStorageBlob} from "@azure/storage-blob";
-const { StorageSharedKeyCredential, BlobServiceClient } = require("@azure/storage-blob");
-
-
 
 class App extends React.Component {
 
@@ -22,9 +18,6 @@ class App extends React.Component {
         );
     }
 }
-
-
-
 
 ReactDOM.render(
     <App />,
