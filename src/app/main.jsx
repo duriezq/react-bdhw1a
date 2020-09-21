@@ -7,13 +7,13 @@ class App extends React.Component {
     render() {
         return (
             <Upload
-                batch={false}
+                batch={true}
                 multiple={true}
                 defaultFiles={[]}
                 withCredentials={false}
                 saveUrl={'https://demos.telerik.com/kendo-ui/service-v4/upload/save'}
                 removeUrl={'https://demos.telerik.com/kendo-ui/service-v4/upload/remove'}
-                onAdd={(ev) => console.log(ev.target)}
+
             />
         );
     }

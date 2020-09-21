@@ -1,4 +1,3 @@
 {
-    "appService.defaultWebAppToDeploy": "/subscriptions/24c21cf9-ed8d-4e09-9ca6-fe93d3edf1c3/resourceGroups/MEDAC/providers/Microsoft.Web/sites/medac-demo",
     "appService.deploySubpath": "build"
 }
